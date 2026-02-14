@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
+/* Configuração de Cores e Variáveis */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #191a23; /* Preto oficial da Positivus */
+
+  /* Cores da Marca */
+  --brand-lime: #b9ff66;
+  --brand-dark: #191a23;
+  --brand-gray: #f3f3f3;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  /* Mapeamento das cores para usar no Tailwind (ex: bg-brand-lime) */
+  --color-brand-lime: var(--brand-lime);
+  --color-brand-dark: var(--brand-dark);
+  --color-brand-gray: var(--brand-gray);
+
+  /* Tipografia oficial do design */
+  --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui;
 }
 
+/* Forçamos o modo claro, já que o design é baseado em contrastes de branco/verde */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #191a23;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utilidades para os Cards da Segunda Parte */
+@layer components {
+  .card-border-bottom {
+    @apply border border-brand-dark border-b-[5px] transition-transform active:translate-y-[2px] active:border-b-[3px];
+  }
 }
