@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Positivus - Landing Page & Management System
 
-## Getting Started
+Uma plataforma completa que combina uma Landing Page de alta conversão para agências de marketing digital com um ecossistema de gestão integrada. O projeto foca em um design moderno baseado em contrastes de preto, branco e verde lima, garantindo uma identidade visual forte e profissional.
 
-First, run the development server:
+## 🎨 Design Reference
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O design utilizado como base foi extraído da comunidade do Figma:
+[Positivus Landing Page Design](https://www.figma.com/design/zciwDTW1FqFdXeEACf3kgH/Positivus-Landing-Page-Design--Community-?node-id=25-145)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Características Principais
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **🎨 Interface Moderna** – Design limpo com alto contraste baseado no estilo "Neo-brutalism".
+- **📱 Totalmente Responsivo** – Experiência fluida em desktops, tablets e smartphones.
+- **🌐 Internacionalização** – Suporte nativo para múltiplos idiomas (PT, EN, ES) via `react-i18next`.
+- **⚡ Performance Otimizada** – Animações suaves com Framer Motion e carregamento veloz via Vite.
+- **📊 Dashboard Interativo** – Visualização de métricas e performance em tempo real.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Frontend & Estilização
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **React 18** (Framework base)
+- **TypeScript** (Tipagem estática para segurança do código)
+- **TailwindCSS** (Estilização baseada em utilitários e design responsivo)
+- **Framer Motion** (Animações de scroll e transições de componentes)
+- **Recharts** (Gráficos interativos para o Dashboard)
 
-## Deploy on Vercel
+### Estado & Lógica
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Zustand** (Gerenciamento de estado global leve e escalável)
+- **React Router** (Navegação dinâmica entre Landing Page e Dashboard)
+- **React i18next** (Framework de tradução para suporte global)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎯 Funcionalidades do Ecossistema
+
+### 🏢 Landing Page (Institucional)
+
+- **Hero Section:** CTA focado em agendamento de consultas.
+- **Serviços:** Cards interativos detalhando SEO, PPC, Marketing de Conteúdo, etc.
+- **Processo de Trabalho:** Acordeão numerado detalhando a metodologia da agência.
+- **Cases de Sucesso:** Seção de estudos de caso com layout horizontal.
+
+### 📊 Dashboard & Gestão
+
+- **Analytics:** Gráficos de receita, vendas e crescimento de tráfego.
+- **Gestão de Clientes:** Cadastro, segmentação e análise de LTV (Lifetime Value).
+- **Controle de Vendas:** Relatórios detalhados e status de pedidos em tempo real.
+- **Configurações:** Gestão de permissões de usuários e troca de temas (Dark/Light).
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone (https://github.com/EduardoMendes418/Front-End-Positivus-MCP)
+   ```
