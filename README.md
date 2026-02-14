@@ -1,6 +1,8 @@
-# 🚀 Positivus - Landing Page & Management System
+# 🚀 Positivus - Landing Page
 
 Uma plataforma completa que combina uma Landing Page de alta conversão para agências de marketing digital com um ecossistema de gestão integrada. O projeto foca em um design moderno baseado em contrastes de preto, branco e verde lima, garantindo uma identidade visual forte e profissional.
+
+<img width="697" height="434" alt="teste" src="https://github.com/user-attachments/assets/4e867031-bf0a-4f80-8549-bae398718c65" />
 
 ## 🎨 Design Reference
 
