@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const Contact = () => {
   return (
@@ -11,7 +11,7 @@ export const Contact = () => {
           Contact Us
         </h2>
         <p className="max-w-sm text-lg text-brand-dark">
-          Connect with Us: Let's Discuss Your Digital Marketing Goals
+          Connect with Us: Let&apos;s Discuss Your Digital Marketing Goals
         </p>
       </div>
 
@@ -67,9 +67,11 @@ export const Contact = () => {
 
         {/* Ilustração Decorativa (Direita) */}
         <div className="hidden md:flex md:w-1/2 justify-end items-center absolute right-[-10%] top-0 h-full">
-           <img 
+           <Image 
             src="/illustrations/contact-illustration.svg" 
             alt="Contact Illustration" 
+            width={500}
+            height={500}
             className="h-[80%] object-contain"
           />
         </div>
