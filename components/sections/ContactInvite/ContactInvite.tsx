@@ -11,7 +11,7 @@ export const ContactInvite = () => {
           Contact Us
         </h2>
         <p className="max-w-sm text-lg text-brand-dark">
-          Connect with Us: Let's Discuss Your Digital Marketing Needs
+          Connect with Us: Let&apos;s Discuss Your Digital Marketing Needs
         </p>
       </div>
 
