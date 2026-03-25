@@ -10,6 +10,7 @@ export const Testimonials = () => {
   const [mounted, setMounted] = useState(false); // New state for mounted status
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true); // Set mounted to true after initial client-side render
   }, []);
 
@@ -46,7 +47,7 @@ export const Testimonials = () => {
               >
                 <div className="max-w-4xl border border-brand-lime rounded-[45px] p-8 md:p-12 relative mb-12">
                   <p className="text-lg md:text-xl font-light leading-relaxed">
-                    "{TESTIMONIALS_DATA[currentIndex].text}"
+                    &quot;{TESTIMONIALS_DATA[currentIndex].text}&quot;
                   </p>
                   <div className="absolute -bottom-4 left-16 w-8 h-8 bg-brand-dark border-r border-b border-brand-lime rotate-45"></div>
                 </div>
