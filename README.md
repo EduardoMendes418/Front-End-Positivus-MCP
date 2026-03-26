@@ -9,7 +9,6 @@ Uma plataforma completa que combina uma Landing Page de alta conversão para ag�
 O design utilizado como base foi extraído da comunidade do Figma:
 [Positivus Landing Page Design](https://www.figma.com/design/zciwDTW1FqFdXeEACf3kgH/Positivus-Landing-Page-Design--Community-?node-id=25-145)
 
----
 
 ## ✨ Características Principais
 
@@ -21,6 +20,8 @@ O design utilizado como base foi extraído da comunidade do Figma:
 
 ## 🛠 Tecnologias Utilizadas
 
+---![Gemini-CLI](https://github.com/user-attachments/assets/48ed9e39-9182-42d3-8939-60ddf2b528c7)
+
 ### Frontend & Estilização
 
 - **Next.js** (Framework de React para aplicações web)
@@ -29,7 +30,7 @@ O design utilizado como base foi extraído da comunidade do Figma:
 - **TailwindCSS** (Estilização baseada em utilitários e design responsivo)
 - **Framer Motion** (Animações de scroll e transições de componentes)
 - **Lucide React** (Biblioteca de ícones)
-
+- **Gemini CLI**
 ---
 
 ## 🎯 Funcionalidades da Landing Page
